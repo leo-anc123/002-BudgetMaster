@@ -1,0 +1,114 @@
+.heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.subheading {
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  color: var(--color-dimgray);
+}
+.headingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.appStoreIcon {
+  border-radius: var(--br-7xs);
+}
+.appStoreIcon,
+.googlePlayIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 56px;
+}
+.appDownloadCombo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.copyComponent {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  min-width: 304px;
+  max-width: 524px;
+}
+.backgroundImageAisplash {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 376px;
+  object-fit: cover;
+  z-index: 1;
+}
+.deviceIcon {
+  position: relative;
+  width: 291.5px;
+  height: 555.2px;
+  z-index: 0;
+  margin-left: -32px;
+}
+.container,
+.typemobileDownload,
+.visualComp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.visualComp {
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 420px;
+  max-width: 640px;
+}
+.container,
+.typemobileDownload {
+  justify-content: center;
+}
+.container {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-29xl);
+  max-width: 1200px;
+}
+.typemobileDownload {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-85xl) var(--padding-base);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-32xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

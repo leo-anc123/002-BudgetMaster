@@ -1,0 +1,25 @@
+.howItWorksGrid,
+.stepsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.howItWorksGrid {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 1200px;
+}
+.stepsWrapper {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  align-items: center;
+  padding: var(--padding-37xl) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 280px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

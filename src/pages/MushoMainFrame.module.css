@@ -1,0 +1,17 @@
+.mushoMainFrame,
+.property1comprehensive {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.property1comprehensive {
+  align-self: stretch;
+  justify-content: center;
+  z-index: 4;
+}
+.mushoMainFrame {
+  position: relative;
+  width: 100%;
+  justify-content: flex-start;
+}

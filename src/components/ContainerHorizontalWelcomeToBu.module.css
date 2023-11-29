@@ -1,0 +1,78 @@
+.heading,
+.subheading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+}
+.heading {
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 104%;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.subheading {
+  font-size: var(--font-size-3xl);
+  line-height: 130%;
+  font-weight: 400;
+  color: var(--color-dimgray);
+}
+.headingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.ctaButton {
+  width: 100%;
+}
+.copyComponent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  min-width: 280px;
+  max-width: 720px;
+}
+.imageContainerIcon {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 704px;
+  object-fit: cover;
+  min-width: 280px;
+}
+.typehorizontal,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapper {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-29xl);
+  max-width: 1200px;
+}
+.typehorizontal {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: flex-start;
+  padding: var(--padding-85xl) var(--padding-5xl) var(--padding-45xl);
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-48xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

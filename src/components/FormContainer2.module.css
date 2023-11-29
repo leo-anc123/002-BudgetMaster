@@ -1,0 +1,27 @@
+.checkcircleIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.listItem {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.feature,
+.featureList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.featureList {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}

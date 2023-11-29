@@ -1,0 +1,39 @@
+.iconIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.featureTitle,
+.stepDescription {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.featureTitle {
+  line-height: 140%;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.stepDescription {
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--color-dimgray);
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 240px;
+  max-width: 400px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

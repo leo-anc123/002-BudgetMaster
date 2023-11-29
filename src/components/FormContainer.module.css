@@ -1,0 +1,74 @@
+.howItWorks,
+.howItWorks1 {
+  align-self: stretch;
+  position: relative;
+}
+.howItWorks {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 118%;
+  font-weight: 700;
+  font-family: inherit;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.howItWorks1 {
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  color: var(--color-dimgray);
+}
+.copyComponent,
+.headingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.headingText {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.copyComponent {
+  flex: 1;
+  gap: var(--gap-21xl);
+  min-width: 272px;
+  max-width: 720px;
+}
+.imageDalle {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 320px;
+  object-fit: cover;
+  min-width: 272px;
+}
+.headingContainer,
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingContainer {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-21xl);
+  max-width: 1200px;
+}
+.headingWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-37xl) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 280px;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

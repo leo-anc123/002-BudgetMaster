@@ -1,0 +1,72 @@
+.heading,
+.subheading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+}
+.heading {
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 104%;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.subheading {
+  font-size: var(--font-size-3xl);
+  line-height: 130%;
+  font-weight: 400;
+  color: var(--color-dimgray);
+}
+.headingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.button {
+  flex: 1;
+}
+.buttoninputCombo {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xs);
+  max-width: 720px;
+}
+.buttoninputCombo,
+.copyComponent,
+.typesimpleCta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyComponent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 304px;
+  max-width: 800px;
+}
+.typesimpleCta {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-93xl) var(--padding-base);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-48xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
